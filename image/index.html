@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anurag Kushwaha - UI/UX Designer & Web Developer</title>
+    <meta name="description" content="Anurag Kushwaha - Passionate UI/UX designer and web developer from Auraiya, UP, focusing on social impact and rural empowerment through technology solutions.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Anurag</a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Web Developer</p>
+                <h1>Hi, I'm <span>Anurag Kushwaha</span><br>From Auraiya, UP</h1>
+                <p class="header-subtitle">Passionate about creating technology solutions that bridge the gap between urban opportunities and rural potential, making digital innovation accessible to everyone.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="placeholder-about.svg" alt="Anurag Kushwaha">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a passionate  web developer from Auraiya, Uttar Pradesh, currently studying Computer Science Engineering at IIIT Sonepat. Growing up in a small town, I witnessed firsthand the challenges faced by rural communities - from farmers struggling with limited resources to students lacking access to quality education and digital literacy.</p>
+                    <p>This experience has shaped my vision to use technology as a bridge between urban opportunities and rural potential. I specialize in creating beautiful, functional, and user-centered digital experiences that can make technology accessible to everyone, regardless of their background.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('journey')">Journey</p>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="skills">
+                        <div class="timeline-wrapper">
+                            <div class="timeline">
+                                <div class="timeline-item left">
+                                    <div class="timeline-content">
+                                        <div class="timeline-year">2024-2025</div>
+                                        <h3>Programming</h3>
+                                        <h4>C/C++ Language</h4>
+                                        <p>Started with C, solving small problems and understanding programming logic then ,I mastered the c++ language .Learned Data Structures & Algorithms, solving 250+ problems on LeetCode/Codeforces.Explored JavaScript and built my first dynamic web pages.</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item right">
+                                    <div class="timeline-content">
+                                        <div class="timeline-year">2024-2025</div>
+                                        <h3>Frontend Development</h3>
+                                        <h4>HTML5, CSS3, JavaScript</h4>
+                                        <p>Transitioned into frontend development to bring designs to life. Learned modern frameworks, responsive design, and performance optimization.</p>
+                                    </div>
+                                </div>
+                                 <div class="timeline-item left">
+                                    <div class="timeline-content">
+                                        <div class="timeline-year">2024-2026</div>
+                                        <h3>Core Computer Science Skills</h3>
+                                        <h4>Data Structures & Algorithms (DSA) 
+                                            Object-Oriented Programming (OOPs) Database Management Systems (DBMS)</h4>
+                                        <p>I have a solid foundation in computer science, with strong problem-solving skills through Data Structures and Algorithms, having solved 250+ problems on arrays, trees, and dynamic programming. I apply Object-Oriented Programming concepts like inheritance and polymorphism to build modular, reusable code. My experience with Database Management Systems such as MySQL.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item right">
+                                    <div class="timeline-content">
+                                        <div class="timeline-year">Ongoing</div>
+                                        <h3>Future / Learning in Progress</h3>
+                                        <h4>Node.js, Python, Database Management</h4>
+                                        <p>I will try to expanded to backend development with Node.js and Python. Working with APIs, databases, and cloud deployment to create complete solutions.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- <div class="tab-contents" id="experience">
+                        <div class="timeline-wrapper">
+                            <div class="timeline">
+                                <div class="timeline-item left">
+                                    <div class="timeline-content">
+                                        <div class="timeline-year">2020-2021</div>
+                                        <h3>Freelance Designer</h3>
+                                        <h4>Local Community Projects</h4>
+                                        <p>Designed promotional materials for local events, small businesses, and community initiatives. Created accessible designs for rural audiences.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item right">
+                                    <div class="timeline-content">
+                                        <div class="timeline-year">2022</div>
+                                        <h3>Digital Literacy Initiative</h3>
+                                        <h4>Community Volunteer</h4>
+                                        <p>Led workshops teaching basic computer skills to rural youth and farmers. Developed simple, visual learning materials in local languages.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item left">
+                                    <div class="timeline-content">
+                                        <div class="timeline-year">2023</div>
+                                        <h3>AgriTech Solutions</h3>
+                                        <h4>Project Lead</h4>
+                                        <p>Developed a crop monitoring app prototype for local farmers, featuring weather alerts, market prices, and sustainable farming tips.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item right">
+                                    <div class="timeline-content">
+                                        <div class="timeline-year">2024</div>
+                                        <h3>Rural EdTech Platform</h3>
+                                        <h4>Co-founder & Lead Designer</h4>
+                                        <p>Building an educational platform focused on bridging the digital divide, making quality education accessible to students in rural areas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     -->
+                    <div class="tab-contents" id="education">
+                        <div class="timeline-wrapper">
+                            <div class="timeline">
+                                <div class="timeline-item left">
+                                    <div class="timeline-content">
+                                        <div class="timeline-year">2020-2021</div>
+                                        <h3>Secondary School Graduation</h3>
+                                        <h4>Auraiya, Uttar Pradesh</h4>
+                                        <p>Completed Class 10 (CBSE) with  <b>93%</b> marks, securing one of the top positions in school. </p>
+                                    </div>
+                                </div>
+                                 <div class="timeline-item right">
+                                    <div class="timeline-content">
+                                        <div class="timeline-year">2022-2023</div>
+                                        <h3>Senior Secondary School Graduation </h3>
+                                        <h4>Auraiya, Uttar Pradesh</h4>
+                                        <p>Completed Class 12 in the Science stream with a focus on Mathematics, Physics, and Computer Science.  I also participated in school projects and extracurricular activities. Being the first in my family to step into the field of technology, this  gave me the confidence to pursue science and develop a strong interest in computers and problem-solving.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item left">
+                                    <div class="timeline-content">
+                                        <div class="timeline-year">2023-2024</div>
+                                        <h3>JEE Main & Advanced Qualified </h3>
+                                        <h4>Kota,Rajasthan</h4>
+                                        <p>After completing Class 12, I successfully qualified JEE Main and JEE Advanced, one of the toughest engineering entrance exams in India. This milestone reflects my hard work, consistency, and problem-solving skills in Mathematics, Physics, and Chemistry. Clearing these exams opened the path for me to pursue higher education in technology and engineering.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item right">
+                                    <div class="timeline-content">
+                                        <div class="timeline-year">2024-2025</div>
+                                        <h3>Computer Science Engineering</h3>
+                                        <h4>IIIT Sonepat</h4>
+                                        <p>Pursuing B.Tech in CSE . Active in coding clubs and social impact projects.</p>
+                                    </div>
+                                </div>
+                               
+                                <div class="timeline-item left">
+                                    <div class="timeline-content">
+                                        <div class="timeline-year">2025</div>
+                                        <h3>Frontend Development</h3>
+                                        <h4>freeCodeCamp & Self-Directed Learning</h4>
+                                        <p>Completed comprehensive frontend development curriculum. Built multiple projects focusing on responsive design and user accessibility.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-contents" id="journey">
+                        <div class="timeline-wrapper">
+                            <div class="timeline">
+                                <div class="timeline-item left">
+                                    <div class="timeline-content">
+                                        <div class="timeline-year">Early Life</div>
+                                        <h3>Rural Roots</h3>
+                                        <h4>Growing Up in Auraiya</h4>
+                                        <p>Born and raised in a small town in Uttar Pradesh, I experienced firsthand the digital divide between urban and rural India. Limited internet access and technology awareness shaped my understanding of inclusive design.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item right">
+                                    <div class="timeline-content">
+                                        <div class="timeline-year">2019</div>
+                                        <h3>The Inspiration</h3>
+                                        <h4>Witnessing the Gap</h4>
+                                        <p>Saw local farmers struggling with crop prices and weather information while youth lacked digital skills for modern opportunities. Realized technology could be the bridge to empowerment.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item left">
+                                    <div class="timeline-content">
+                                        <div class="timeline-year">2020-2021</div>
+                                        <h3>First Steps</h3>
+                                        <h4>Learning & Teaching</h4>
+                                        <p>Started learning design and development while teaching basic computer literacy to local youth. Understood the importance of simple, intuitive interfaces for first-time technology users.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item right">
+                                    <div class="timeline-content">
+                                        <div class="timeline-year">Present</div>
+                                        <h3>Mission-Driven Work</h3>
+                                        <h4>Technology for Social Impact</h4>
+                                        <p>Every project I work on considers accessibility, simplicity, and social impact. Building solutions that don't just look good, but actually improve lives and create opportunities in underserved communities.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Area</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-palette"></i>
+                    <h2>Programming and Development</h2>
+                    <p>I provide custom programming solutions including web development (HTML, CSS, JS), application development in C++/Python, database design with MySQL, and efficient problem-solving using algorithms. I also help with debugging, automation, and optimizing code for better performance..</p>
+                    <a href="#contact">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Building responsive, performance-optimized websites and applications using modern technologies, with emphasis on accessibility and cross-device compatibility.</p>
+                    <a href="#contact">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-heart"></i>
+                    <h2>Social Impact Tech</h2>
+                    <p>Developing technology solutions focused on rural empowerment, digital literacy, and bridging the urban-rural divide through thoughtful design and development.</p>
+                    <a href="#contact">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.svg" alt="FarmConnect Platform">
+                    <div class="layer">
+                        <h3>Amazon Clone </h3>
+                        <p>A comprehensive digital platform connecting directlypeople with markets, featuring real-time pricing.</p>
+                        <a href="http://127.0.0.1:5500/amazon-clone-main/amazon-clone-main/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.svg" alt="Rural Education Hub">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>A simple music streaming/player app where users can play, pause, and manage playlists. Built with [your tech stack, e.g., HTML, CSS, JavaScript / Python / React], featuring an intuitive UI and smooth audio controls..</p>
+                        <a href="http://127.0.0.1:5500/Spotify%20Clone/index2.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="work">
+                    <img src="work-3.svg" alt="Digital Literacy Portal">
+                    <div class="layer">
+                        <h3>Digital Literacy Portal</h3>
+                        <p>An interactive platform teaching basic computer skills and digital literacy to rural youth. Includes gamified learning modules and progress tracking.</p>
+                        <a href="#contact"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div> -->
+                </div>
+            </div>
+            <a href="#contact" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <h1 class="sub-title contact-title">Get In Touch</h1>
+            <p class="contact-intro">Let's collaborate on creating technology solutions that make a real difference. Whether you have a project idea, need consultation, or want to discuss social impact technology, I'd love to hear from you.</p>
+            
+            <div class="contact-row">
+                <div class="contact-left">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>anuragkushawaha4@example.com</p>
+                                <span>Available 24/7</span>
+                            </div> 
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <p>+91 8954261755</p>
+                                <span>9 AM - 8 PM IST</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Location</h3>
+                                <p>Auraiya, UP, India</p>
+                                <span>Open to remote work</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-section">
+                        <h3>Connect With Me</h3>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/anurag-kushwaha-60142a32a" target="_blank" rel="noopener" title="LinkedIn">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/anuragkushwaha" target="_blank" rel="noopener" title="GitHub">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://twitter.com/anuragkushwaha" target="_blank" rel="noopener" title="Twitter">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/anuragkushwaha" target="_blank" rel="noopener" title="Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="btn btn-download" download>
+                        <i class="fa-solid fa-download"></i>
+                        Download Resume
+                    </a>
+                </div>
+                
+                <div class="contact-right">
+                    <div class="contact-form-wrapper">
+                        <h3>Send a Message</h3>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                                <i class="fa-solid fa-user form-icon"></i>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <i class="fa-solid fa-envelope form-icon"></i>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="subject" placeholder="Subject" required>
+                                <i class="fa-solid fa-tag form-icon"></i>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                                <i class="fa-solid fa-message form-icon"></i>
+                            </div>
+                            <button type="submit" class="btn btn-submit">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                        </form>
+                        <div id="form-message" style="display: none; margin-top: 15px; padding: 15px; border-radius: 6px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2024 Anurag Kushwaha <i class="fa-solid fa-heart"></i> Made with passion for social impact</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

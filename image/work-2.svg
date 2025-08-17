@@ -1,0 +1,39 @@
+<svg width="350" height="250" viewBox="0 0 350 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="musicGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ff004f"/>
+            <stop offset="50%" stop-color="#9c27b0"/>
+            <stop offset="100%" stop-color="#3f51b5"/>
+        </linearGradient>
+    </defs>
+    
+    <!-- Background -->
+    <rect width="350" height="250" fill="#1a1a1a" rx="10"/>
+    
+    <!-- Music player interface -->
+    <rect x="50" y="50" width="250" height="150" fill="#000" rx="15"/>
+    
+    <!-- Album art -->
+    <rect x="70" y="70" width="80" height="80" fill="url(#musicGradient)" rx="10"/>
+    
+    <!-- Music controls -->
+    <circle cx="200" cy="110" r="20" fill="url(#musicGradient)" opacity="0.8"/>
+    <polygon points="195,105 195,115 210,110" fill="#fff"/>
+    
+    <!-- Previous/Next buttons -->
+    <circle cx="160" cy="110" r="12" fill="#ff004f" opacity="0.6"/>
+    <circle cx="240" cy="110" r="12" fill="#ff004f" opacity="0.6"/>
+    
+    <!-- Progress bar -->
+    <rect x="70" y="160" width="210" height="4" fill="#333" rx="2"/>
+    <rect x="70" y="160" width="120" height="4" fill="url(#musicGradient)" rx="2"/>
+    
+    <!-- Sound waves -->
+    <rect x="170" y="80" width="3" height="15" fill="#ff004f" opacity="0.7" rx="1"/>
+    <rect x="180" y="75" width="3" height="25" fill="#ff004f" opacity="0.8" rx="1"/>
+    <rect x="190" y="70" width="3" height="35" fill="#ff004f" opacity="0.9" rx="1"/>
+    <rect x="200" y="65" width="3" height="45" fill="#ff004f" rx="1"/>
+    <rect x="210" y="70" width="3" height="35" fill="#ff004f" opacity="0.9" rx="1"/>
+    <rect x="220" y="75" width="3" height="25" fill="#ff004f" opacity="0.8" rx="1"/>
+    <rect x="230" y="80" width="3" height="15" fill="#ff004f" opacity="0.7" rx="1"/>
+</svg>

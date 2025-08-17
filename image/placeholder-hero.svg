@@ -1,0 +1,28 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ff004f" stop-opacity="0.8"/>
+            <stop offset="100%" stop-color="#ff4081" stop-opacity="0.6"/>
+        </linearGradient>
+    </defs>
+    
+    <!-- Background -->
+    <rect width="800" height="600" fill="#080808"/>
+    
+    <!-- Abstract geometric shapes -->
+    <circle cx="650" cy="150" r="80" fill="url(#heroGradient)" opacity="0.3"/>
+    <circle cx="100" cy="400" r="60" fill="url(#heroGradient)" opacity="0.2"/>
+    
+    <!-- Code-like elements -->
+    <rect x="50" y="50" width="200" height="4" fill="#ff004f" opacity="0.6" rx="2"/>
+    <rect x="50" y="70" width="150" height="4" fill="#ff004f" opacity="0.4" rx="2"/>
+    <rect x="50" y="90" width="180" height="4" fill="#ff004f" opacity="0.5" rx="2"/>
+    
+    <!-- Computer/Device outline -->
+    <rect x="300" y="200" width="300" height="200" fill="none" stroke="#ff004f" stroke-width="2" rx="10" opacity="0.4"/>
+    <rect x="320" y="220" width="260" height="140" fill="none" stroke="#ff004f" stroke-width="1" rx="5" opacity="0.3"/>
+    
+    <!-- Abstract patterns -->
+    <polygon points="700,450 720,480 680,480" fill="#ff004f" opacity="0.3"/>
+    <polygon points="150,100 170,130 130,130" fill="#ff004f" opacity="0.2"/>
+</svg>
