@@ -1,0 +1,21 @@
+<svg width="400" height="500" viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="aboutGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ff004f"/>
+            <stop offset="100%" stop-color="#ff6b9d"/>
+        </linearGradient>
+    </defs>
+    
+    <!-- Background -->
+    <rect width="400" height="500" fill="#262626" rx="15"/>
+    
+    <!-- Person silhouette -->
+    <ellipse cx="200" cy="150" rx="60" ry="60" fill="url(#aboutGradient)" opacity="0.8"/>
+    <rect x="140" y="200" width="120" height="180" fill="url(#aboutGradient)" opacity="0.6" rx="10"/>
+    
+    <!-- Decorative elements -->
+    <circle cx="350" cy="80" r="20" fill="#ff004f" opacity="0.3"/>
+    <circle cx="50" cy="400" r="15" fill="#ff004f" opacity="0.4"/>
+    <rect x="30" y="250" width="40" height="3" fill="#ff004f" opacity="0.5" rx="1"/>
+    <rect x="330" y="300" width="50" height="3" fill="#ff004f" opacity="0.5" rx="1"/>
+</svg>
